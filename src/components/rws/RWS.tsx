@@ -231,20 +231,7 @@ function RWS() {
             </section>
 
         </div>
-        {another()}
     </>
-}
-
-function another() {
-    /*escuchador que indica al navegador que este atento a la interaccion el usuario */
-    window.addEventListener("scroll" , function() {
-
-    /*objeto especial con metodos para agregar, eliminar y alternar una sola clase
-     *Se agrega la clase sticky cuando se haga scroll 
-     */
-    console.log("scroll ocurred")
-    header.classList.toggle("sticky", window.scrollY > 0)  
-    })
 }
 
 function toggle() {

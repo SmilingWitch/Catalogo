@@ -17,17 +17,13 @@ header {
     display: flex ;
     justify-content: space-between ;
     align-items: center ;
-    padding: 40px 100px ;
+    padding: 5px 100px ;
     z-index: 1000 ;
     transition: 0.6s ;
-    
-}
-
-header .sticky {
-    padding: 5px 100px ;
-    background: white;
+    background-color: gray ;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
+
 header .logo {
     position: relative ;
     font-weight: 700 ;
